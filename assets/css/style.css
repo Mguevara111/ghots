@@ -1,0 +1,40 @@
+html {
+  	box-sizing: border-box;
+	font-size:16px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+:root{
+    --p-color:#1B3C53;
+    --s-color:#456882;
+    --t-color:#D2C1B6;
+    --q-color:#F9F3EF;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: var(--p-color);
+    color: var(--q-color);
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.pedir-link{
+    text-decoration: none;
+    color: var(--q-color);
+}
+.logo-ghots{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.navbar{
+    /* border: thick solid red; */
+    background-color: var(--t-color) !important
+}
