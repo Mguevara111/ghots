@@ -20,13 +20,14 @@ body {
     width: 100%;
     height: 40px;
     background-color: var(--p-color);
-    color: var(--q-color);
+    color: var(--t-color);
     text-align: center;
     padding-top: 0.5rem;
 }
+
 .pedir-link{
     text-decoration: none;
-    color: var(--q-color);
+    color: var(--t-color);
 }
 .logo-ghots{
     width: 60px;
