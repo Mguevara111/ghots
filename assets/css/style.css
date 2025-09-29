@@ -35,17 +35,18 @@ body {
     object-fit: cover;
     object-position: bottom;
 }
-.navbar{
-    /* border: thick solid red; */
-    background-color: var(--t-color) !important
-}
+/* .navbar{
+    /* border: thick solid red;
+    background-color: white !important
+} */
 .main-image-container{
     width: 100%;
     height: 200px;
-    background-image: url('../images/mainimage.jpg');
+    background-image: url('../images/imagenprincipal.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;   
+    background-size: cover;
+    background-position: center;
+      
 }
 .main-phrase{
     width: 100%;
@@ -62,6 +63,7 @@ body {
 .renova-pre{
     width: 100%;
     height: auto;
+    margin-bottom: 1rem;
 }
 .eboost-pre > img{
     width: 100%;
@@ -74,6 +76,7 @@ body {
     font-size: 1.5rem;
     color: var(--t-color);
     font-weight: 800;
+    margin: 1.5rem 0;
 }
 
 .renova-pre > img{
@@ -85,6 +88,35 @@ body {
 }
 .main-phrase b{
     color: var(--s-color);
+}
+.prod-fondo{
+    background-image: linear-gradient(var(--p-color),var(--q-color));
+}
+.prod-fondo > img{
+    width: 100%;
+    height: 550px;
+}
+
+.eboost-prod{
+    width: 100%;
+    height: 180px;
+}
+.eboost-container,
+.renova-container{
+    width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+}
+.eboost-container > p,
+.renova-container > p{
+    color: var(--p-color);
+    text-align: center;
+    margin: 1.5rem;
+}
+.prod-title{
+    text-align: center;
+    color: var(--p-color);
+    margin-bottom: 1.5rem;
 }
 .footer{
     width: 100%;
