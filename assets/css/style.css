@@ -24,7 +24,26 @@ body {
     text-align: center;
     padding-top: 0.5rem;
 }
-
+.quienes{
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 0.8rem;
+    color: var(--q-color);
+    background-image: url('../images/businessfont1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.quienes > p,
+.quienes > h2{
+    text-align: justify;
+    backdrop-filter:blur(0.20rem);
+    font-size: 1.2rem;
+}
+.quienes > h2{
+    text-align: center;
+}
 .pedir-link{
     text-decoration: none;
     color: var(--t-color);
@@ -65,27 +84,35 @@ body {
     height: auto;
     margin-bottom: 1rem;
 }
-.eboost-pre > img{
+.eboost-container{
     width: 100%;
+    height: 250px;
+}
+.prod{
+    width: 100%;
+    height: 200px;
+}
+
+.caratula{
+     width: 100%;
     height: 200px;
     object-fit: contain;
     object-position: center;
 }
 .nuestros-productos{
     text-align: center;
-    font-size: 1.5rem;
-    color: var(--t-color);
-    font-weight: 800;
+    font-size: 1.2rem;
+    color: var(--p-color);
     margin: 1.5rem 0;
 }
-
-.renova-pre > img{
-    width: 100%;
-    height: 200px;
-    object-fit: contain;
-    object-position: center;
-    
+.nuestros-productos > p{
+    text-align: justify;
+    padding: 0.8rem;
 }
+.nuestros-productos > h2{
+    text-align: center;
+}
+
 .main-phrase b{
     color: var(--s-color);
 }
@@ -100,6 +127,7 @@ body {
 .eboost-prod{
     width: 100%;
     height: 180px;
+    margin-bottom: 1rem;
 }
 .eboost-container,
 .renova-container{
@@ -113,10 +141,25 @@ body {
     text-align: center;
     margin: 1.5rem;
 }
+.btn{
+    background-color: var(--s-color) !important;
+    color:var(--q-color);
+}
 .prod-title{
     text-align: center;
     color: var(--p-color);
     margin-bottom: 1.5rem;
+}
+.whatsappbtn{
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    color: green;
+    background-color: white;
+    border-radius: 50%;
+}
+.modalbtn{
+    text-align: center;
 }
 .footer{
     width: 100%;
