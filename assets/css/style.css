@@ -119,6 +119,7 @@ body {
     height: 200px;
     object-fit: contain;
     object-position: center;
+    margin-bottom: 2rem;
 }
 
 .nuestros-productos,
@@ -143,15 +144,12 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-<<<<<<< HEAD
-=======
     background-image: linear-gradient(var(--p-color),var(--t-color));
     padding: 1rem;
     margin-bottom: 1rem;
 }
 .fwp-apoyo{
     color: var(--q-color);
->>>>>>> 97164f6 (solo faltan enlace a redes)
 }
 .main-phrase b{
     color: var(--s-color);
@@ -240,8 +238,6 @@ body {
    color: var(--t-color);
    
 }
-<<<<<<< HEAD
-=======
 @media screen and (min-width:30em){
     .main-image-container{
         height: 300px;
@@ -312,4 +308,3 @@ body {
     
     
 }
->>>>>>> 97164f6 (solo faltan enlace a redes)
