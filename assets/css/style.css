@@ -109,6 +109,16 @@ body {
     width: 100%;
     height: 200px;
     margin-bottom: 1rem;
+    opacity: 0;
+}
+.prod-unblur{
+    animation: produnblur 3s ease-in-out forwards;
+}
+.prod-pmove{
+    animation:prod-pmove 5s linear forwards;
+}
+.prod-p{
+    transform: translateY(-100px);
 }
 .prod-p > p{
     text-align: justify;
@@ -238,6 +248,29 @@ body {
    color: var(--t-color);
    
 }
+
+@keyframes produnblur{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes prod-pmove{
+    0%{
+        transform: translateY(-100px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 @media screen and (min-width:30em){
     .main-image-container{
         height: 300px;
@@ -294,6 +327,7 @@ body {
         padding: 1rem;
     }
     .eboost-prod{
+        
         height: 300px;
         
     }
